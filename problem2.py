@@ -9,5 +9,10 @@
 #(Hint use a while loop)
 #Don't forget to import random
 
-targetNum =
-guessNum = input()
+import random
+targetNum = random.randint(1,9)
+guessNum = input("Enter a number")
+while guessNum = targetNum:
+  print("Well guessed!")
+else:
+  print(input("Try again!"))
